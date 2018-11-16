@@ -76,7 +76,7 @@ IMAGE_FORMATS = {
     'png': 'png',
     }
 
-PIL.Image.MAX_IMAGE_PIXELS = 1600 * 1600 * 10 * 10 * 10
+PIL.Image.MAX_IMAGE_PIXELS = None
 
 class DeepZoomImageDescriptor(object):
     def __init__(self, width=None, height=None,
